@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  color: gray;
+}
+
+@font-face {
+  font-family: kyu;
+  src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(242, 235, 227);
+}
+
+#comp {
+  /* height: 60%; */
+  width: 45.5%;
+  height: 60%;
+  background-color: green;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 45% 55%;
+  /*if i do not give size of column and rows in percentage 
+  then image do bakchodi*/
+
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+#left {
+  background-color: white;
+  width: 100%;
+  /* height: 100%; */
+}
+
+#right {
+  background-color: white;
+  width: 100%;
+  font-family: kyu;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  margin-top: 1.4rem;
+  margin-bottom: 1.1rem;
+  margin-left: 2rem;
+  font-weight: 450;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+h2 {
+  margin-left: 2rem;
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: black;
+}
+
+p {
+  margin-left: 2rem;
+  margin-right: 3rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+
+span,
+del {
+  display: inline-block;
+}
+
+span {
+  color: rgb(60, 128, 103);
+  font-size: 2rem;
+  margin-left: 2rem;
+  font-weight: 700;
+  margin-right: 0.7rem;
+}
+
+button {
+  position: relative;
+  color: white;
+  display: block;
+  height: 49px;
+  width: 310px;
+  background-color: rgb(60, 128, 103);
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  /* padding: 30px; */
+  font-size: 1rem;
+  overflow: hidden;
+  border-radius: 10px;
+  border: none;
+}
+
+button img {
+  height: 40%;
+  width: 8%;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+
+#right div {
+  margin-bottom: 1.5rem;
+}
